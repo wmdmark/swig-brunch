@@ -1,0 +1,28 @@
+{
+  "name": "swig-brunch",
+  "version": "1.0.0",
+  "description": "Compiles swig templates for brunch.",
+  "author": "Mark Johnson",
+  "homepage": "https://github.com/wmdmark/swig-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wmdmark/swig-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "node setup.js prepublish",
+    "postpublish": "node setup.js postpublish",
+    "test": "node setup.js test"
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "dependencies": {
+    "coffee-script": "1.4.0",
+    "swig": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "chai": "1.4.2"
+  }
+}
