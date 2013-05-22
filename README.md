@@ -1,5 +1,5 @@
 ## swig-brunch
-Compiles Swig template files for use in [brunch](http://brunch.io). Plugin checks for files that have one of the following extensions:
+Compiles [Swig](http://paularmstrong.github.io/swig/) template files for use in [brunch](http://brunch.io). Plugin checks for files that have one of the following extensions:
 
 - .html
 - .swig
