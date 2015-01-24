@@ -19,5 +19,5 @@ module.exports = class SwigCompiler
 
   include: [
     (sysPath.join __dirname, '..', 'vendor',
-      'swig.pack.min.js')
+      'swig.min.js')
   ]  

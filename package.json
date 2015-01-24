@@ -1,6 +1,6 @@
 {
   "name": "swig-brunch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Compiles swig templates for brunch.",
   "author": "Mark Johnson",
   "homepage": "https://github.com/wmdmark/swig-brunch",
@@ -18,7 +18,7 @@
     "node": "~0.6.10 || 0.8 || 0.9"
   },
   "dependencies": {
-    "coffee-script": "1.4.0",
+    "coffee-script": "*",
     "swig": "*"
   },
   "devDependencies": {
